@@ -7,6 +7,9 @@ class barber extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
+      body: Container(
+        child: Text('Roshan Flutter'),
+      ),
     );
   }
 }
