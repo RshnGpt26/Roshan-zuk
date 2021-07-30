@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.grey,
       ),
       // home: MyHomePage(title: 'Flutter Demo Home Page'),
-      home: AddBank(),
+      home: Dashboard(),
       debugShowCheckedModeBanner: false,
     );
   }

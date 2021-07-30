@@ -73,6 +73,7 @@ class Dashboard extends StatelessWidget {
                           Expanded(
                             flex: 25,
                             child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Expanded(
                                   flex: 3,
@@ -225,7 +226,10 @@ class Dashboard extends StatelessWidget {
                                   flex: 2,
                                   child: Text(
                                     'My Investments',
-                                    style: TextStyle(color: Colors.white),
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 13,
+                                    ),
                                   ),
                                 ),
                               ],
@@ -349,7 +353,10 @@ class Dashboard extends StatelessWidget {
                                   flex: 2,
                                   child: Text(
                                     'Add Bank Details',
-                                    style: TextStyle(color: Colors.white),
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 12,
+                                    ),
                                   ),
                                 ),
                               ],
@@ -371,7 +378,10 @@ class Dashboard extends StatelessWidget {
                                   flex: 2,
                                   child: Text(
                                     'My Banks Details',
-                                    style: TextStyle(color: Colors.white),
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 12,
+                                    ),
                                   ),
                                 ),
                               ],
